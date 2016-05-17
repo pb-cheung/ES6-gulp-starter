@@ -1,0 +1,25 @@
+{
+  "name": "frontEnd-starter",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp archive && mocha --reporter spec --timeout 5000"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "colors": "^1.1.2",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-watch": "^4.1.1",
+    "request": "^2.53.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": ""
+  }
+}
